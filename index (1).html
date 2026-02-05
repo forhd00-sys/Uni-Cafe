@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Uni Cafe - Brahmanbaria</title>
+  <meta name="description" content="This Pizza Dine In in Brahmanbaria serves wood-fired, authentic pizzas with fresh ingredients. Open daily 11 AM - 10 PM." />
+  <meta name="theme-color" content="#b71c1c" />
+
+  <!-- Structured Data (Restaurant) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Uni Cafe",
+    "description": "Authentic wood-fired pizzas in Brahmanbaria Town. Fresh ingredients and cozy dine-in experience.",
+    "telephone": "+880123456789",
+    "email": "info@thispizzadinein.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Main Road",
+      "addressLocality": "Brahmanbaria Town",
+      "addressCountry": "BD"
+    },
+    "openingHours": "Mo-Su 11:00-22:00",
+    "servesCuisine": "Pizza",
+    "url": ""
+  }
+  </script>
+
+  <style>
+    :root{
+      --brand:#d32f2f;
+      --brand-dark:#b71c1c;
+      --bg:#ffffff;
+      --text:#222;
+      --muted:#666;
+      --max-width:1200px;
+      --gap:18px;
+      --radius:8px;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      color:var(--text);
+      background:var(--bg);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+    }
+
+    a{color:inherit}
+    .skip-link{
+      position:absolute;
+      left: -999px;
+      top:auto;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+    }
+    .skip-link:focus{
+      left:8px;
+      top:8px;
+      width:auto;
+      height:auto;
+      background:#000;
+      color:#fff;
+      padding:8px 12px;
+      z-index:1000;
+      border-radius:4px;
+    }
+
+    header{
+      background:linear-gradient(0deg,var(--brand-dark),var(--brand));
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+    header h1{margin:.2rem 0; font-size:1.6rem}
+    header p{margin:0; opacity:.95}
+
+    nav{
+      background:var(--brand-dark);
+      padding:8px 12px;
+      display:flex;
+      justify-content:center;
+      gap:18px;
+      position:sticky;
+      top:0;
+*
